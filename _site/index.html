@@ -17,100 +17,34 @@
 <header>
   <h1><a href="/">BSides Portland 2017</a></h1>
   <nav>
-    <li><a href="/">Home</a></li><li><a href="/archive/">Archive</a></li><li><a href="/calendar/">Calendar</a></li>
+    <li><a href="/">Home</a></li><li><a href="/archive/">Archive</a></li><li><a href="/calendar/">Calendar</a></li><li><a href="/cfp/">CFP</a></li><li><a href="/codeofconduct/">Code of Conduct</a></li><li><a href="/contests_events/">Contests and Events</a></li><li><a href="/register/">Register</a></li><li><a href="/schedule/">Schedule</a></li><li><a href="/speakers/">Speakers</a></li><li><a href="/sponsors/">Sponsors</a></li><li><a href="/test/">Test</a></li><li><a href="/venue/">Venue</a></li><li><a href="/workshops/">Workshops</a></li>
   </nav>
 </header>
 <main>
-  
   <article class="light">
     <header>
-      <h2><a href="/example/2014/09/10/example-2/">Example 2</a></h2>
-      <span><time datetime="2014-09-10T15:37:00-07:00">Sep 10, 2014</time> • example</span>
+      <h2><a href="/"></a></h2>
+      <span></span>
     </header>
     <div>
-<p><strong>Basic</strong></p>
+<p>NOTE: This is a dev site. We’re playing around with a new website design. Data on this website should not be considered accurate until the site has gone live!</p>
 
-<p>Neque porro <em>quisquam</em> est, qui <strong>dolorem</strong> ipsum, quia <strong><em>dolor</em></strong> sit, amet, <a href="http://cjdns.info/">consectetur</a>, adipisci velit.</p>
+<p>Welcome to the revamped BSides PDX website. The live website can be found at <a href="http://www.bsidespdx.org">BSides PDX 2016</a>.</p>
 
-<ul>
-  <li>lorem</li>
-  <li>ipsum</li>
-</ul>
+<h2 id="bsides-pdx-2017">BSides PDX 2017</h2>
+<h1 id="october-20th-and-21st">October 20th and 21st</h1>
+<h1 id="at-the-oregon-convention-center-in-portland-oregon">At the Oregon Convention Center in Portland, Oregon</h1>
 
-<ol>
-  <li>dolor</li>
-  <li>sit</li>
-</ol>
+<p>BSides PDX is a gathering of the most interesting infosec minds in Portland and the Pacific Northwest! Our passion about all things security has driven attendance from other parts of the country. Our goal is to provide an open environment for the InfoSec community to engage in conversations, learn from each other and promote knowledge sharing and collaboration. The Portland and greater Northwest information security community spans a broad spectrum of participation from CISOs, Fortune 100 company security experts, small business system admins, to independent security researcher.</p>
+
+<p>To get involved, join the BSidesPDX mailing list : <a href="https://groups.google.com/forum/#!forum/bsidespdx">BSides PDX Google Group</a></p>
 
 
     </div>
-    <footer>
-      <p><a class="ghost" href="/example/2014/09/10/example-2/">read more »</a></p>
-    </footer>
+    
+    
   </article>
-
-  <article class="dark">
-    <header>
-      <h2><a href="/example/2014/09/10/example/">Example</a></h2>
-      <span><time datetime="2014-09-10T15:37:00-07:00">Sep 10, 2014</time> • example</span>
-    </header>
-    <div>
-<p><strong>Basic</strong></p>
-
-<p>Neque porro <em>quisquam</em> est, qui <strong>dolorem</strong> ipsum, quia <strong><em>dolor</em></strong> sit, amet, <a href="http://cjdns.info/">consectetur</a>, adipisci velit.</p>
-
-<ul>
-  <li>lorem</li>
-  <li>ipsum</li>
-</ul>
-
-<ol>
-  <li>dolor</li>
-  <li>sit</li>
-</ol>
-
-<table>
-  <thead>
-    <tr>
-      <th>First Header</th>
-      <th>Second Header</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Table Cell</td>
-      <td>Table Cell</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><strong>Blockquote</strong></p>
-
-<blockquote>
-  <p>They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.</p>
-
-  <p><em>Benjamin Franklin</em></p>
-</blockquote>
-
-<p><strong>Code</strong></p>
-
-<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="k">static</span> <span class="kt">void</span> <span class="nf">asyncEnabled</span><span class="p">(</span><span class="n">Dict</span><span class="o">*</span> <span class="n">args</span><span class="p">,</span> <span class="kt">void</span><span class="o">*</span> <span class="n">vAdmin</span><span class="p">,</span> <span class="n">String</span><span class="o">*</span> <span class="n">txid</span><span class="p">,</span> <span class="k">struct</span> <span class="n">Allocator</span><span class="o">*</span> <span class="n">requestAlloc</span><span class="p">)</span>
-<span class="p">{</span>
-    <span class="k">struct</span> <span class="n">Admin</span><span class="o">*</span> <span class="n">admin</span> <span class="o">=</span> <span class="n">Identity_check</span><span class="p">((</span><span class="k">struct</span> <span class="n">Admin</span><span class="o">*</span><span class="p">)</span> <span class="n">vAdmin</span><span class="p">);</span>
-    <span class="kt">int64_t</span> <span class="n">enabled</span> <span class="o">=</span> <span class="n">admin</span><span class="o">-&gt;</span><span class="n">asyncEnabled</span><span class="p">;</span>
-    <span class="n">Dict</span> <span class="n">d</span> <span class="o">=</span> <span class="n">Dict_CONST</span><span class="p">(</span><span class="n">String_CONST</span><span class="p">(</span><span class="s">"asyncEnabled"</span><span class="p">),</span> <span class="n">Int_OBJ</span><span class="p">(</span><span class="n">enabled</span><span class="p">),</span> <span class="nb">NULL</span><span class="p">);</span>
-    <span class="n">Admin_sendMessage</span><span class="p">(</span><span class="o">&amp;</span><span class="n">d</span><span class="p">,</span> <span class="n">txid</span><span class="p">,</span> <span class="n">admin</span><span class="p">);</span>
-<span class="p">}</span></code></pre></figure>
-
-
-    </div>
-    <footer>
-      <p></p>
-    </footer>
-  </article>
-
 </main>
-
 
 <footer>
   <span><a href="http://localhost:4000">BSides PDX</a></span>
